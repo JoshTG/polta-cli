@@ -34,3 +34,6 @@ extend-select = [
 
 [tool.ruff.lint.pydocstyle]
 convention = "google"
+
+[tool.poetry.scripts]
+metastore = "polta_cli.metastore:main"
