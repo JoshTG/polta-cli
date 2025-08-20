@@ -1,0 +1,17 @@
+# Environment/IDE files
+.venv
+.vscode
+
+# Package files
+dist/
+
+# Lint files
+.ruff_cache
+
+# Generated test/cache files
+.pytest_cache
+__pycache__
+.coverage
+
+# User-generated files
+*scratch.ipynb
