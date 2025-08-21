@@ -82,13 +82,12 @@ Below are the top-level packages with their licenses.
 
 | Package | Version | Purpose | License |
 | ------- | ------- | ------- | ------- |
-| [deltalake](https://github.com/delta-io/delta-rs) | >=0.25.5, <1.0.0 | Stores and reads data | Apache Software License (Apache-2.0) |
-| [polars](https://github.com/pola-rs/polars) | >=1.30.0, <1.31.0 | Executes DataFrame transformation | MIT License |
-| [textual](https://github.com/Textualize/textual) | >=5.3.0,<5.4.0 | Builds the CLI applications | MIT License |
+| [polta](https://github.com/JoshTG/polta/tree/main) | >=0.8.2, <0.9.0 | The data storage / transformation package | MIT License |
 | [pytest](https://github.com/pytest-dev/pytest) | >=8.3.5, <8.4.0 | Runs test cases for unit testing | MIT License |
 | [pytest-cov](https://github.com/pytest-dev/pytest-cov) | >=6.2.1, <6.3.0 | Applies test coverage to pytest runs | MIT License |
 | [ruff](https://github.com/astral-sh/ruff) | >=0.12.3, <0.13.0 | Executes linting checks in the repository | MIT License |
 | [ruff-action](https://github.com/astral-sh/ruff-action) | latest | Executes a ruff check in the GitHub workflow | Apache Software License (Apache-2.0) |
+| [textual](https://github.com/Textualize/textual) | >=5.3.0,<5.4.0 | Builds the CLI applications | MIT License |
 | [tzdata](https://github.com/python/tzdata) | >=2025.2, <2026.1 | Contains timezone information for Datetime objects | Apache Software License (Apache-2.0) |
 
 # Contributing

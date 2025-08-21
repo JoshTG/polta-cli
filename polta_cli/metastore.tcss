@@ -1,0 +1,28 @@
+DeltaTableTree {
+  width: 45%;
+  border: round;
+  dock: right;
+}
+
+#col-table-metadata {
+  border: round;
+  width: 95%;
+}
+
+#col-table-output {
+  border: round;
+}
+
+#col-table-header {
+  height: 12%;
+}
+
+#input-table-filter {
+  width: 80%;
+  border: dashed;
+}
+
+#input-table-limit {
+  width: 20%;
+  border: dashed;
+}

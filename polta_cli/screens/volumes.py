@@ -51,7 +51,7 @@ class VolumesScreen(Screen):
           id='tree-export',
           name='Export'
         )
-  
+
   @on(DirectoryTree.FileSelected)
   def open_file(self, selected: DirectoryTree.FileSelected) -> None:
     """Opens a selected file with the default system program for that file type

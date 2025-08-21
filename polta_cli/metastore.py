@@ -11,6 +11,7 @@ from polta_cli.screens.volumes import VolumesScreen
 
 class MetastoreApp(App):
   """CLI app for managing a metastore"""
+  CSS_PATH = 'metastore.tcss'
   SCREENS = {
     'tables': TablesScreen,
     'volumes': VolumesScreen

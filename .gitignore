@@ -15,3 +15,6 @@ __pycache__
 
 # User-generated files
 *scratch.ipynb
+
+# Metastore files
+sample/sample_metastore/volumes/system/
