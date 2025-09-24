@@ -6,20 +6,17 @@ from textual.app import App, ComposeResult
 from textual.widgets import Footer, Header
 
 from polta_cli.screens.tables import TablesScreen
-from polta_cli.screens.volumes import VolumesScreen
 
 
 class MetastoreApp(App):
   """CLI app for managing a metastore"""
   CSS_PATH = 'metastore.tcss'
   SCREENS = {
-    'tables': TablesScreen,
-    'volumes': VolumesScreen
+    'tables': TablesScreen
   }
   BINDINGS = [
     ('d', 'toggle_dark', 'Toggle dark mode'),
     ('t', 'push_screen("tables")', "Tables"),
-    ('v', 'push_screen("volumes")', 'Volumes'),
     ('e', 'quit', 'Exit')
   ]
 
